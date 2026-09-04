@@ -1,0 +1,73 @@
+{
+  "algorithm_source_equivalence": {
+    "files": {
+      "src/quest_transient_backend/fblock_power.py": "3c2bd1a399417f8e2a89ca29ec6554ef4d99aa17f980dd440da218b37fdc084a",
+      "src/quest_transient_backend/incoherent_normalizer.py": "343c9ba4e64dfccff2d46e34e3cc1aa8ad9c129c894c2e308ef14a420ec253f0",
+      "src/quest_transient_backend/incoherent_trigger.py": "6d2144ad9a22eb5dda62c8d4a31ee7874218201f9ea6a354504b7c019282bbf3"
+    },
+    "method": "upstream source body SHA-256 after removing the public SPDX header"
+  },
+  "branch": "public-release",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "dc86041f724f59384c59af371f0ecd860e3c9ef5b1f4c5fdc2e90b260f53ee76"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "720b7b3c8b150846f8348cd10b16964c197f32c9e13a845f3e58a11fc0768b3e"
+    },
+    {
+      "path": "README.md",
+      "sha256": "a0995bbd7d354c8b2fa5fb49554a4ac2d5e76f618068af5a687589b9fe2a7a1e"
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "8caff539768c8ddf0e3110d836d12ece416b70a21841428548b9ad05797a6e1e"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "6ded793b089678a9d87511bad785ae20d17f85dcda32dda0392f61716ad26b20"
+    },
+    {
+      "path": "src/quest_transient_backend/__init__.py",
+      "sha256": "a6d1c38b5556dcfca9df25a881882e92c4d0b764a2f7934a09d49fe59fd93893"
+    },
+    {
+      "path": "src/quest_transient_backend/fblock_power.py",
+      "sha256": "f48a77aecc48747ed2056fa8039d9fde42042d5eab2c6e79bc42d830c73bf627"
+    },
+    {
+      "path": "src/quest_transient_backend/incoherent_normalizer.py",
+      "sha256": "92f966164edd6e94b1e2b7f274cdb871d624c41ba45f1b663663e4155f290bf2"
+    },
+    {
+      "path": "src/quest_transient_backend/incoherent_trigger.py",
+      "sha256": "41221724d59816f7641dd621b5a0e1505f6dfce03ec8e2f304875fe67bd8b580"
+    },
+    {
+      "path": "tests/test_fblock_power.py",
+      "sha256": "581c428f8b7f79091891095e773e04d183a92223b7470844892585f776cdb158"
+    },
+    {
+      "path": "tests/test_incoherent_normalizer.py",
+      "sha256": "cb06bda644053b305dc85800204b60b0455ddd688e2097223b4237e0e239e6c7"
+    },
+    {
+      "path": "tests/test_incoherent_trigger.py",
+      "sha256": "a0236a2e2f6fa2d06de536c57f96b6cf9849f3c031e3048445f6b14fe8a88e02"
+    }
+  ],
+  "history": "none",
+  "manifest_excludes_self": true,
+  "release": "v0.1.0-cpu-contract",
+  "schema": "rift-public-release-manifest-v1",
+  "scope": "CPU/fake NumPy incoherent primitives only; no live, GPU, RDMA, hardware, server, operator, lifecycle, or observation-data claims",
+  "source_upstream_commit": "4136aeaa38562d93407815b9caacc231c62cbc91",
+  "transformations": [
+    "Added SPDX-License-Identifier metadata to copied Python files.",
+    "Removed the optional CuPy test from the public CPU test set.",
+    "Removed instrument-specific contract, schema, run, and operational files.",
+    "Scrubbed historical run identifiers from retained tests."
+  ]
+}
